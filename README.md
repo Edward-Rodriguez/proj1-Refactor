@@ -35,7 +35,7 @@ Project was created with:
 
 ## Dataset Stats
 
-> **Original Dataset Format** (619,000 records)  
+> **Original Dataset Format** (61,900 records)  
 > `Date Reported` `Day` `Month` `Year` `Cases` `Deaths` `Countries and Territories`  
 > `GeoID` `Country Code` `2019 Population` `Continent` `# of cases per/100000`  
 **MapReduced Data Result** (193 records)  
