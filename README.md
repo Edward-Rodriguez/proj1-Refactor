@@ -26,19 +26,19 @@ Project was created with:
   - Create a customized mapper class to select only Countries and cases.
   - Create a customized reducer class to combine results
 
-- [ ] **[Question #2]** - List the top 20 countries that had the highest cumulative cases by 12/14/2020
+- [x] **[Question #2]** - List the top 20 countries that had the highest cumulative cases by 12/14/2020
 
-  - Create a hive query (via docker)
+  - Create a second map/reduce job to sort
 
-- [ ] **[Question #3]** - List the top 20 countries that had the fewest cumulative cases by 12/14/2020
-  - Create a hive query (via docker)
+- [ ] **[Question #3]** - List the top 20 days with the highest daily cases worldwide (by 12/14/2020)
+  - Create a third map/reduce
 
 ## Dataset Stats
 
 > **Original Dataset Format** (61,900 records)  
 > `Date Reported` `Day` `Month` `Year` `Cases` `Deaths` `Countries and Territories`  
 > `GeoID` `Country Code` `2019 Population` `Continent` `# of cases per/100000`  
-**MapReduced Data Result** (193 records)  
+> **MapReduced Data Result** (193 records)  
 > `Countries and Territories` `Total Cumulative Cases`
 
 ## Todo List/ Features
@@ -48,8 +48,8 @@ Project was created with:
 - [x] Upload dataset and jar file to docker container
 - [x] Move dataset to hdfs
 - [x] Run jar file on dataset
-- [ ] Install Hive on docker
-- [ ] Run Hive queries on dataset
+- [x] Create map/reduce job to sort
+- [ ] Create map/reduce job to aggregate total daily cases worldwide
 
 ## references:
 
