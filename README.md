@@ -2,7 +2,7 @@
 
 ## 2020 Covid-19 Cases by Country Analysis
 
-A simple project that utilizes mapreduce on a dataset of daily confirmed covid-19 cases(per country) for analysis
+A simple project that utilizes mapreduce on a dataset of daily confirmed covid-19 cases(per country/ territory) for analysis
 
 ## Technologies
 
@@ -38,7 +38,7 @@ Project was created with:
 > **Original Dataset Format** (61,900 records)  
 > `Date Reported` `Day` `Month` `Year` `Cases` `Deaths` `Countries and Territories`  
 > `GeoID` `Country Code` `2019 Population` `Continent` `# of cases per/100000`  
-> **MapReduced Data Result** (193 records)  
+> **MapReduced Data Result** (214 records)  
 > `Countries and Territories` `Total Cumulative Cases`
 
 ## Todo List/ Features

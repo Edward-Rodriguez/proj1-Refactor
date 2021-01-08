@@ -1,0 +1,21 @@
+Cases	Country
+16256754	United States of America
+9884100	India
+6901952	Brazil
+2653928	Russia
+2376852	France
+1849403	United Kingdom
+1843712	Italy
+1730575	Spain
+1498160	Argentina
+1425774	Colombia
+1337078	Germany
+1250044	Mexico
+1135676	Poland
+1108269	Iran
+995471	Turkey
+984973	Peru
+900666	Ukraine
+860964	South Africa
+617820	Indonesia
+612746	Netherlands
