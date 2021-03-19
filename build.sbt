@@ -26,7 +26,7 @@ version := "1.0"
 libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3.2.1"
 libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "3.2.1"
 // https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc
-libraryDependencies += "org.apache.hive" % "hive-jdbc" % "2.3.2"
+libraryDependencies += "org.apache.hive" % "hive-jdbc" % "3.1.2"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
